@@ -7,7 +7,7 @@ app.get('/', (req,res)=>{
     res.send("Welcome to the backend developed by SATYA");
 })
 
-app,get('/jokes',cors(),  (req,res)=>{
+app.get('/jokes',cors(),  (req,res)=>{
     const jokes = [
         {
             id: '1',
